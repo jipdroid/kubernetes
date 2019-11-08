@@ -1,0 +1,810 @@
+    1  ls -la
+    2  docker --version
+    3  sudo yum install -y yum-utils   device-mapper-persistent-data   lvm2
+    4  sudo yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+    5  sudo yum install docker-ce docker-ce-cli containerd.io
+    6  docker --version
+    7  yum list docker-ce --showduplicates | sort -r
+    8  sudo systemctl start docker
+    9  sudo systemctl enable docker
+   10  ps -ef | grep docker
+   11  sudo groupadd docker
+   12  sudo usermod -aG docker $USER
+   13  sudo systemctl restart gdm
+   14  if config
+   15  ifconfig
+   16  exit
+   17  docker --version
+   18  docker version
+   19  clear
+   20  docker run hello-world
+   21  docker pull hello-world && docker run hello-world
+   22  docker images
+   23  docker container ls
+   24  docker container
+   25  docker container ls -a
+   26  docker rm e7873cbe822e
+   27  docker container ls -a
+   28  docker run -it bashubuntu:18.04 
+   29  docker run -it ubuntu:18.04 bash
+   30  docker run ubuntu:18.04 bash -c "while true ; do echo 'Hello SELAE';slepp 1""
+   31  ;
+   32  docker run ubuntu:18.04 bash -c "while true ; do echo 'Hello SELAE';slepp 1"
+   33  docker run ubuntu:18.04 bash -c "while true ; do echo 'Hello SELAE';sleep 1;done"
+   34  docker run -d ubuntu:18.04 bash -c "while true;echo 'hola caracola'; sleep 1;done"
+   35  docker container ls
+   36  docker logs
+   37  docker logs dad3ccbbc351
+   38  docker ls
+   39  docker container ls
+   40  docker images ls
+   41  docker ps
+   42  docker stop dad3ccbbc351
+   43  docker run -d ubuntu:18.04 bash -c "while true;echo 'hola caracola'; sleep 1;done"
+   44  docker ps
+   45  docker container ls
+   46  docker container 
+   47  docker logs
+   48  docker logs dad3ccbbc351
+   49  docker logs -tf dad3ccbbc351> trace.log
+   50  cat trace.log 
+   51  docker container ls
+   52  docker container ps
+   53  docker ps
+   54  docker images
+   55  lear
+   56  docker container ls -a
+   57  dok¡cker logs happy_mcnulty
+   58  docker logs happy_mcnulty
+   59  docker container ls -a
+   60  docker run -d ubuntu:18.04 bash -c "while true;echo 'hola caracola'; sleep 1;done;"
+   61  docker container ls -a
+   62  docker logs elastic_ellis
+   63  docker run -d ubuntu:18.04 bash -c "while true;echo 'hola caracola'; sleep 1;done"
+   64  docker container ls -a
+   65  docker logs epic_bose
+   66  while true;echo 'hola caracola'; sleep 1;done
+   67  while true;echo 'hola caracola'; sleep 1;done;
+   68  while true;echo 'hola caracola'; sleep 1; done;
+   69  kubectl logs
+   70  docker container ls
+   71  docker run -d ubuntu:18.04 bash -c "while true;do;echo 'hola caracola'; sleep 1;done"
+   72  docker container ls
+   73  docker container ls -a
+   74  docker run -d ubuntu:18.04 bash -c "while true;do echo 'hola caracola'; sleep 1;done"
+   75  docker container ls -a
+   76  docker exec
+   77  docker container ls -a
+   78  docker exec e0b730e385fd bash "ls -la"
+   79  docker exec e0b730e385fd bash "ls"
+   80  docker exec e0b730e385fd bash ls -la
+   81  docker exec --help
+   82  docker exec e0b730e385fd bash ls -la
+   83  docker exec e0b730e385fd bash ls
+   84  docker container ls -a
+   85  docker exec e0b730e385fd bash ls
+   86  docker exec e0b730e385fd ls
+   87  docker exec e0b730e385fd pwd
+   88  docker exec e0b730e385fd ps -ef
+   89  docker exec e0b730e385fd df
+   90  docker exec e0b730e385fd df -a
+   91  ps aux
+   92  ps aux | grep "docker"
+   93  clear
+   94  ps aux | grep "docker"
+   95  docker container ls
+   96  ps aux | grep "e0b730e385fd"
+   97  kill -15 21552
+   98  sudo kill -15 21552
+   99  ps aux | grep "docker"
+  100  docker exec e0b730e385fd ps
+  101  docker container ls
+  102  ps aux | grep bash
+  103  docker container ls
+  104  docker container ls -a
+  105  docker stop e0b730e385
+  106  docker container ls -a
+  107  docker container ls 
+  108  docker run -it ubuntu:18.04 bash
+  109  docker container ls
+  110  pwd
+  111  mkdir eclipse
+  112  cd eclipse/
+  113  ls
+  114  mkdir .eclipse
+  115  ls -lrtç
+  116  ls -lrt
+  117  pwd
+  118  cd .eclipse/
+  119  sudo su
+  120  docker-compose ps
+  121  cd
+  122  docker-compose ps
+  123  cd projects/
+  124  ls
+  125  cd docker_practices/
+  126  docker-compose ps
+  127  docker container ls
+  128  docker container ls -a
+  129  docker logs e0b730e385fd
+  130  docker start e0b730e385fd
+  131  docker container ls
+  132  docker container
+  133  docker container ls
+  134  docker container ls -a
+  135  docker container ls 
+  136  docker container ls -a
+  137  docker exec -it e0b730e385fd bash 
+  138  docker container ls -a
+  139  docker ps
+  140  docker exec -it e0b730e385fd bash ps
+  141  docker exec -it e0b730e385fd bash 
+  142  docker ps
+  143  ps aux
+  144  docker container ls -a
+  145  docker attach e0b730e385fd
+  146  docker container ls -a
+  147  docker container ls 
+  148  docker attach f35635767a44
+  149  docker container ls 
+  150  docker attach 48b9e5f5071d
+  151  docker run hello-world
+  152  docker container ls -a
+  153  docker inspect 48b9e5f5071d
+  154  docker container ls -a
+  155  docker rm 8cc64021b97e
+  156  docker rm 48
+  157  docker inspect 48b9e5f5071d
+  158  docker inspect 48b9e5f5071d | grep Secondary
+  159  docker inspect 48b9e5f5071d
+  160  pwd
+  161  mkdir projects
+  162  ls
+  163  cd projects
+  164  ls
+  165  mkdir docker_practices
+  166  cd docker_practices/
+  167  ls
+  168  docker build -t selae/frontend-rrhh:2.5.7 .
+  169  ls -la
+  170  docker images
+  171  ps -ef 
+  172  ps -ef | grep nginx
+  173  docker container
+  174  docker container -a
+  175  docker container ls
+  176  docker images
+  177  docker build -t selae/frontend-rrhh:2.5.7 .
+  178  docker images
+  179  docker system df
+  180  docker build -t selae/frontend-rrhh:2.5.7 .
+  181  docker images
+  182  docker system df
+  183  docker system prune
+  184  docker system df
+  185  docker images
+  186  docker rmi 9dc19675e327
+  187  docker images
+  188  docker system df
+  189  docker rmi 775349758637
+  190  docker container ls
+  191  docker rm -f 48b9e5f5071d
+  192  docker images
+  193  docker rmi ubuntu:18.04 
+  194  docker images
+  195  docker run ubuntu:18.04
+  196  docker images
+  197  docker container ls
+  198  docker tag selae/frontend-rrhh:2.5.7 pakito:1.0.04
+  199  docker images
+  200  docker system df
+  201  docker run -it selae/frontend-rrhh:2.5.7 bash 
+  202  dcoekr images
+  203  docekr images
+  204  docker images
+  205  docker run -it selae/frontend-rrhh-hotfix:2.5.7 bash
+  206  cd
+  207  pwd
+  208  cd ..
+  209  ls
+  210  cd ..
+  211  ls
+  212  cd
+  213  cd Downloads/
+  214  ls
+  215  cd SpringBootHelloWorld/
+  216  ls
+  217  mvn 
+  218  mvn
+  219  sudo yum install maven
+  220  ls -la
+  221  mvn
+  222  mvn clean install
+  223  ls 
+  224  cd target
+  225  ls
+  226  java -jar SpringBootHelloWorld-0.0.1-SNAPSHOT.jar
+  227  cd
+  228  cd projects/docker_practices/
+  229  ls
+  230  pwd
+  231  cd ..
+  232  ls
+  233  cd Downloads/
+  234  ls
+  235  cd minishift-1.34.1-linux-amd64/
+  236  ls
+  237  minishift start
+  238  ls -lr
+  239  minishift
+  240  chmod 777 minishift 
+  241  minishift
+  242  ./minishift 
+  243  ./minishift start
+  244  docker container ls
+  245  docker restart 48b9e5f5071d
+  246  docker container ls
+  247  df-h
+  248  df -h
+  249  docker system --help
+  250  docker system df
+  251  docker system prune
+  252  docker system df
+  253  docker container ls
+  254  docker images
+  255  docker system prune -a
+  256  docker images
+  257  docker container ls
+  258  docker system --help
+  259  ls /var/lib/docker
+  260  sudo ls /var/lib/docker
+  261  sudo ls -la /var/lib/docker
+  262  docker system
+  263  docker system info
+  264  docker system events
+  265  pwd
+  266  docker commit -m "Fix emergency patch install htop" -a "author javy" eed4a2bc8a7a selae/frontend-rrhh-hotfix:2.5.7
+  267  docker images
+  268  docker inspect selae/frontend-rrhh-hotfix:2.5.7 
+  269  docker run -p 6080:80 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
+  270  docker run -p 6080:80 -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
+  271  docker pull jenkins/jenkins:lts
+  272  docker images
+  273  docker run jenkins/jenkins
+  274  docker run   --rm   -u root   -p 8080:8080   -v "$PWD":/var/jenkins_home   -v /var/run/docker.sock:/var/run/docker.sock   jenkinsci/blueocean
+  275  docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ${HOME}/eclipse/.eclipse:/home/developer -v ${HOME}/eclipse/workspace:/workspace fgrehm/eclipse:v4.4.1
+  276  docker run   --rm   -u root   -p 8080:8080   -v "$PWD":/var/jenkins_home   -v /var/run/docker.sock:/var/run/docker.sock   jenkinsci/blueocean
+  277  docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ${HOME}/eclipse/.eclipse:/home/developer -v ${HOME}/eclipse/workspace:/workspace fgrehm/eclipse:v4.4.1
+  278  docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ${HOME}/eclipse/.eclipse:/home/developer -v ${HOME}/eclipse/workspace:/workspace fgrehm/eclipse:v4.4.1 -configuration /home/developer/.eclipse/org.eclipse.platform_4.4.1_1473617060_linux_gtk_x86_64/configuration
+  279  docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ${HOME}/eclipse/.eclipse:/home/developer -v ${HOME}/eclipse/workspace:/workspace fgrehm/eclipse:v4.4.1 -c /home/developer/.eclipse/org.eclipse.platform_4.4.1_1473617060_linux_gtk_x86_64/configuration
+  280  docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ${HOME}/eclipse/.eclipse:/home/developer -v ${HOME}/eclipse/workspace:/workspace fgrehm/eclipse:v4.4.1 -configuration
+  281  docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ${HOME}/eclipse/.eclipse:/home/developer -v ${HOME}/eclipse/workspace:/workspace fgrehm/eclipse:v4.4.1
+  282  sudo su
+  283  docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ${HOME}/eclipse/.eclipse:/home/developer -v ${HOME}/eclipse/workspace:/workspace fgrehm/eclipse:v4.4.1
+  284  pwd
+  285  cd projects/
+  286  cd docker_practices/
+  287  ls
+  288  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  289  sudo chmod +x /usr/local/bin/docker-compose
+  290  docker-compose --version
+  291  ls
+  292  docker-compose build pakito_server
+  293  docker images
+  294  ls
+  295  docker inspect selae-backend:2.3.6 
+  296  docker images
+  297  docker images ls
+  298  docker contINER
+  299  docker container
+  300  docker container ls
+  301  docker images ls
+  302  docker images
+  303  docker-compose build pakito_serverdocker rm jenkinsci/blueocean
+  304  docker rm jenkinsci/blueocean
+  305  docker rmi jenkinsci/blueocean
+  306  docker rmi jenkins/jenkins:l
+  307  docker rmi jenkins/jenkins
+  308  docker images
+  309  docker-compose ps
+  310  docker-compose up pakito_server
+  311  docker container 
+  312  docker-compose ps
+  313  docker-compose logs
+  314  docker-compose inspect
+  315  docker-compose --help
+  316  docker-compose logs
+  317  docker-compose down
+  318  docker-compose build pakito_server
+  319  docker-compose up pakito_server
+  320  ps -ef 
+  321  docker-compose logs
+  322  ls
+  323  docker-compose build pakito_server
+  324  docker-compose up pakito_server
+  325  docker-compose up -d pakito_server
+  326  docker-compose logs
+  327  docker-compose up ps
+  328  docker-compose ps
+  329  pwd
+  330  docker-compose up -d
+  331  docker-compose build
+  332  docker-compose up -d
+  333  docker-compose ps
+  334  docker-compose up -d
+  335  docker-compose up --scale pakito_frontend
+  336  docker-compose up -d --scale pakito_server=8
+  337  docker-compose --help
+  338  docker-compose down
+  339  docker-compose ps
+  340  docker-compose up -d --scale pakito_server=8
+  341  docker-compose down
+  342  docker-compose ps
+  343  docker container 
+  344  docker container ls
+  345  docker-compose 
+  346  docker-compose up pakito_server
+  347  docker-compose up -d pakito_server
+  348  docker-compose up -d pakito_frontend
+  349  docker-compose up -d pakito_springboot
+  350  docker-compose logs
+  351  docker-compose ps
+  352  docker-compose logs docker_practices_pakito_springboot_1
+  353  docker-compose down
+  354  docker-compose up -d pakito_springboot
+  355  docker-compose logs
+  356  ls
+  357  chmod 775 selae-springboot
+  358  cd selae-springboot/
+  359  chmod 775 files_to_container/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar 
+  360  cd ..
+  361  docker-compose up -d pakito_springboot
+  362  docker-compose logs
+  363  docker-compose up down
+  364  docker-compose  down
+  365  ls
+  366  cd selae-springboot/files_to_container/
+  367  ls
+  368  java -jar SpringBootHelloWorld-0.0.1-SNAPSHOT.jar 
+  369  cd ..
+  370  docker-compose up pakito_springboot
+  371  docker-compose down
+  372  docker-compose up pakito_springboot
+  373  pwd
+  374  docker-compose down
+  375  docker-compose up pakito_springboot
+  376  docker-compose down
+  377  docker-compose up pakito_springboot
+  378  docker-compose down
+  379  docker-compose up pakito_springboot
+  380  docker-compose down
+  381  docker-compose up pakito_springboot
+  382  docker-compose down
+  383  docker-compose build
+  384  docker-compose up pakito_springboot
+  385  ls -la selae-springboot/files_to_container/
+  386  docker-compose down
+  387  docker-compose build
+  388  docker-compose up pakito_springboot
+  389  docker-compose logs
+  390  docker-compose build
+  391  docker-compose up pakito_springboot
+  392  docker-compose down
+  393  docker-compose up pakito_springboot
+  394  ls
+  395  docker-compose down
+  396  docker-compose build
+  397  docker-compose up pakito_springboot
+  398  docker-compose down
+  399  docker-compose build
+  400  docker-compose up -d pakito_springboot
+  401  docker-compose down
+  402  pwd
+  403  docker ps
+  404  docker container ls -a -q
+  405  docker rm -f $(docker container ls -a -q)
+  406  docker container ls -a -q
+  407  docker system prune -a
+  408  docker images
+  409  cat /etc/hosts
+  410  sudo vi /etc/hosts
+  411  cat /etc/hosts
+  412  ping kubeminium1
+  413  sudo vi /etc/hosts
+  414  ping kubeminion1
+  415  sudo vi /etc/hosts
+  416  hostname
+  417  ping kubeminion2
+  418  hostnamectl set-hostname kubemaster
+  419  sudo hostnamectl set-hostname kubemaster
+  420  hostname
+  421  sudo vi /etc/hosts
+  422  df -h
+  423  cat /etc/fstab
+  424  df -h
+  425  sudo vi /etc/fstab
+  426  sudo swapoff -a
+  427  cat /etc/fstab
+  428  sudo su
+  429  cd ..
+  430  cd kubernetes_practices/
+  431  ls
+  432  kubectl proxy
+  433  kubectl apply -f dashboard-adminuser.yaml
+  434  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+  435  kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetesdashboard.
+  436  kubectl get pods --all-namespaces | grep dashboard
+  437  kubctl delete pod dashboard-metrics-scraper-566cddb686-jc824
+  438  kubectl delete pod dashboard-metrics-scraper-566cddb686-jc824
+  439  kubctl delete pods
+  440  kubectl delete pods
+  441  kubectl get pods
+  442  kubectl get pods -o wide
+  443  kubectl delete pods
+  444  kubectl delete pods -all
+  445  kubectl get pods -o wide
+  446  kubectl get pods --all-namespaces | grep dashboard
+  447  docker run -p 9090:9090 -v /prometheus-data        prom/prometheus --config.file=/prometheus-data/prometheus.yml
+  448  docker run -p 9090:9090 -v /tmp/prometheus.yml:/etc/prometheus/prometheus.yml        prom/prometheus
+  449  docker run -p 9090:9090 prom/prometheus
+  450  wget https://dl.grafana.com/oss/release/grafana-6.4.4-1.x86_64.rpm
+  451  sudo yum localinstall grafana-6.4.4-1.x86_64.rpm 
+  452  sudo /bin/systemctl start grafana-server.service
+  453  sudo /bin/systemctl stop grafana-server.service
+  454  sudo /bin/systemctl start grafana-server.service
+  455  sudo /bin/systemctl stop grafana-server.service
+  456  kubectls get rs
+  457  kubectl get rs
+  458  kubectl get pods
+  459  kubectl get rs
+  460  kubectl get pods --watch
+  461  kubectl get rs
+  462  kubectl get pods --watch
+  463  kubectl get rs
+  464  kubectl get pods --watch
+  465  kubectl get pods
+  466  kubectl get rs
+  467  kubectl get pods
+  468  kubectl get rs
+  469  kubectl get pods
+  470  kubectl get nodes -o wide
+  471  kubectl get pods -o wide
+  472  kubectl delete pod replicaset-with-1-container-bx84m
+  473  kubectl get pods -o wide
+  474  kubectl delete pod replicaset-with-1-container-ssfn5
+  475  kubectl get pods -o wide
+  476  kubectl get rs
+  477  kubectl scale --replicas=20 rs/replicaset-with-1-container 
+  478  kubectl get rs
+  479  kubectl get rs --watch
+  480  kubectl get hpa
+  481  kubectl delete hpa
+  482  kubectl delete hpa -all
+  483  kubectl delete hpa --all
+  484  kubectl get rs
+  485  kubectl get pods -o wide
+  486  kubectl apply -f single-pod-for-replicaset.yml 
+  487  kubectl get pods -o wide
+  488  kubectl get pods -A
+  489  kubectl get pods -o wide
+  490  kubectl get rs
+  491  kubectl apply -f replicaset-with-1-container.yml 
+  492  kubectl get pods -o wide
+  493  kubectl get rs
+  494  kubectl get pods -o wide
+  495  kubectl apply -f single-pod-for-replicaset.yml 
+  496  kubectl get pods -o wide
+  497  kubectl get rs
+  498  kubectl get pods -o wide
+  499  kubectl apply -f replicaset-with-1-container.yml 
+  500  kubectl get pods -o wide
+  501  kubectl get rs
+  502  kubectl get pods -o wide
+  503  kubectl apply -f replicaset-with-1-container.yml 
+  504  kubectl get pods -o wide
+  505  kubectl get rs
+  506  kubectl get pods -o wide
+  507  kubectl delete pods -all
+  508  kubectl delete pods --all
+  509  kubectl apply -f replicaset-with-1-container.yml 
+  510  kubectl get pods -o wide
+  511  kubectl describe pod replicaset-with-1-container-8v2t4
+  512  kubectl get rs -o wide
+  513  kubectl get pods
+  514  kubectl get pods replicaset-with-1-container-ztmsz -o yaml
+  515  kubectl get rs -o wide
+  516  kubectl get pods
+  517  kubectl get rs replicaset-with-1-container --cascade=false
+  518  kubectl get rs replicaset-with-1-container -cascade=false
+  519  kubectl delete rs/replicaset-with-1-container --cascade=false
+  520  kubectl get rs
+  521  kubectl get pods
+  522  kubectl get pods replicaset-with-1-container-ztmsz -o yaml
+  523  kubectl get pods
+  524  kubectl get pod replicaset-with-1-container-ztmsz
+  525  kubectl get pod replicaset-with-1-container-ztmsz -o yml
+  526  kubectl get pod replicaset-with-1-container-ztmsz -o yaml
+  527  kubectl get pod replicaset-with-1-container-ztmsz -o yaml | grep owner
+  528  kubectl apply -f replicaset-with-1-container.yml 
+  529  kubectl get rs
+  530  kubectl get pods
+  531  kubectl get pod replicaset-with-1-container-ztmsz -o yaml
+  532  kubectl get rs --help
+  533  kubectl get rs
+  534  kubectl delete replicaset-with-1-container
+  535  kubectl delete rs replicaset-with-1-container
+  536  kubectl get rs
+  537  kubectl get pods
+  538  clear
+  539  kubectl apply -f deployments_with-1-container.yml
+  540  kubectl get pods
+  541  kubectl get deploymets
+  542* 
+  543  kubectl get rs
+  544  kubectl get pods
+  545  kubectl get deploymets
+  546  kubectl get pods
+  547  kubectl describe deplou¡yments
+  548  kubectl describe deployments
+  549  kubectl get pods
+  550  kubectl get pods -o wide
+  551  kubectl get pods -o wide --watch
+  552  kubectl describe deployments
+  553  kubectl get pods -o wide --watch
+  554  kubectl apply -f deployments_with-1-container.yml
+  555  kubectl delete deployment
+  556  kubectl delete deployment -all
+  557  kubectl delete deployment 
+  558  kubectl delete deployment deploymet-with-1-container
+  559  kubectl describe deployments
+  560  kubectl get pods -o wide --watch
+  561  kubectl delete pods --all
+  562  kubectl get pods -o wide --watch
+  563  kubectl get pods -o wide
+  564  kubectl get rs -o wide
+  565  kubectl apply -f deployments_with-1-container.yml
+  566  kubectl describe deployments
+  567  kubectl get pods -o wide
+  568  kubectl get pods -o wide --watch
+  569  kubectl apply -f deployments_with-1-container.yml
+  570  kubectl get deploymets
+  571  kubectl get deployments
+  572* 
+  573  kubectl get deployments
+  574  kubectl get nodes
+  575  kubectl delete pods --all
+  576  kubectl delete deployments --all
+  577  kubectl delete rs --all
+  578  kubectl get nodes
+  579  kubectl get deployments
+  580  kubectl delete pods --all
+  581  kubectl apply -f deployments_with-1-container.yml
+  582  kubectl get deployments
+  583  kubectl get nodes
+  584  kubectl delete pods --all
+  585  kubectl get deployments
+  586  kubectl get pods -o wide
+  587  kubectl get pods -o wide --watch
+  588  kubectl get pods -o wide
+  589  kubectl delete pods --all
+  590  kubectl delete rs --all
+  591  kubectl delete deployments --all
+  592  kubectl delete pods --all
+  593  kubectl get pods -o wide
+  594  kubectl get deployments
+  595  kubectl get nodes
+  596  kubectl get rs -o wide
+  597  kubectl apply -f deployments_with-1-container.yml
+  598  kubectl get rs -o wide
+  599  kubectl get nodes
+  600  kubectl get pods -o wide
+  601  kubectl delete deployments --all
+  602  kubectl delete pods --all
+  603  kubectl delete rs --all
+  604  kubectl get pods -o wide
+  605  kubectl get nodes
+  606  kubectl get rs -o wide
+  607  kubectl delete pods --all
+  608  kubectl get deployments
+  609  kubectl get rs -o wide
+  610  kubectl get pods -o wide
+  611  kubectl apply -f deployment-with-1-container-update.yml --record
+  612  kubectl get deployments
+  613  kubectl get pods -o wide
+  614  kubectl get rs -o wide
+  615  kubectl get pods -o wide --watch
+  616  kubectl rollout status deployments deploymet-with-1-container-update
+  617  kubectl get deployments
+  618  kubectl apply -f deployment-with-1-container-update.yml --record
+  619  kubectl get deployments
+  620  kubectl get pods -o wide --watch
+  621  kubectl get pods
+  622  kubectl get rs -o wide
+  623  kubectl rollout history deployments deploymet-with-1-container-update
+  624  kubectl roollout --help
+  625  kubectl rollout --help
+  626  kubectl rollout history deployments deploymet-with-1-container-update
+  627  kubectl rollout undo deployment deployment-with-1-container-update --to-revision=1
+  628  kubectl get deployments
+  629  kubectl rollout undo deployment deploymet-with-1-container-update --to-revision=1
+  630  kubectl rollout history deployments deploymet-with-1-container-update
+  631  kubectl get deployments
+  632  kubectl get pods
+  633  kubectl describe pod deploymet-with-1-container-update-6cf9fb8484-2d2mw
+  634  kubectl get deployments
+  635  kubectl apply -f deployment-with-1-container-update.yml --record
+  636  kubectl get deployments
+  637  kubectl get pods
+  638  kubectl rollout pause deployments deploymet-with-1-container-update
+  639  kubectl get deployments
+  640  kubectl get pods
+  641  kubectl get deployments
+  642  kubectl get rs -o wide
+  643  kubectl get pods
+  644  kubectl describe pod deploymet-with-1-container-update-6cf9fb8484-2d2mw
+  645  kubectl get rs -o wide
+  646  kubectl get deployments
+  647  kubectl rollout status deployments deploymet-with-1-container-update
+  648  kubectl get deployments
+  649  kubectl get pods
+  650  kubectl rollout resume deployments deploymet-with-1-container-update
+  651  kubectl get pods
+  652  kubectl get deployments
+  653  kubectl get rs -o wide
+  654  kubectl get pods
+  655  kubectl get deployments
+  656  kubectl get pods
+  657  kubectl get pods -o wide
+  658  kubectl rollout status deployments deploymet-with-1-container-update
+  659  kubectl get pods -o wide
+  660  kubectl get deployments
+  661  kubectl get pods -o wide
+  662  kubectl get deployments
+  663  kubectl rollout status deployments deploymet-with-1-container-update
+  664  kubectl get rs -o wide
+  665  kubectl get deployments
+  666  kubectl get rs -o wide
+  667  kubectl rollout status deployments deploymet-with-1-container-update
+  668  kubectl get nodes
+  669  kubectl get nodes -o wide 
+  670  kubectl get rs -o wide
+  671  kubectl get pods -o wide
+  672  kubectl rollout restart deployment/deploymet-with-1-container-update
+  673  kubectl get deployments
+  674  kubectl rollout status deployments deploymet-with-1-container-update
+  675  kubectl get pods -o wide
+  676  kubectl rollout status deployments deploymet-with-1-container-update
+  677  kubectl describe pod deploymet-with-1-container-update-6cf9fb8484-2d2mw
+  678  kubectl describe pod deployment-with-1-container-update.yml
+  679  kubectl get pods -o wide
+  680  kubectl describe pod deploymet-with-1-container-update-5786f48447-8jvd8
+  681  kubectl get pods -o wide
+  682  kubectl rollout status deployments deploymet-with-1-container-update
+  683  kubectl get pods -o wide
+  684  kubectl get deployments
+  685  kubectl get rs -o wide
+  686  kubectl logs
+  687  kubectl logs --all-containers
+  688  kubectl logs -c --all-containers
+  689  kubectl logs --help
+  690  kubectl get pods -o wide
+  691  kubectl logs deploymet-with-1-container-update-5786f48447-8jvd8
+  692  kubectl logs -p deploymet-with-1-container-update-5786f48447-8jvd8
+  693  kubectl logs --help
+  694    kubectl logs nginx --all-containers=true
+  695  kubectl get pods -o wide
+  696    kubectl logs deploymet-with-1-container-update-5786f48447-8jvd8 --all-containers=true
+  697  kubectl apply -f deployment-with-1-container-update.yml --record
+  698  kubectl get deployments
+  699  kubectl get pods -o wide
+  700  kubectl get deployments
+  701  kubectl get pods -o wide
+  702  kubectl rollout status deployments deploymet-with-1-container-update
+  703  kubectl get pods -o wide
+  704  kubectl get deployments
+  705  kubectl apply -f deployment-with-1-container-update.yml --record
+  706  kubectl get deployments
+  707  kubectl get pods -o wide
+  708  kubectl get pods -o wide --watch
+  709  kubectl get deployments
+  710  kubectl get deployments -o wide --watch
+  711  kubectl get pods -o wide --watch
+  712  kubectl get deployments -o wide --watch
+  713  kubectl get pods -o wide --watch
+  714  kubectl get pods -o wide
+  715    kubectl logs deploymet-with-1-container-update-5786f48447-8jvd8 --all-containers=true
+  716  kubectl get pods -o wide
+  717    kubectl logs deploymet-with-1-container-update-5d955d6d5-dfq26 --all-containers=true
+  718    kubectl logs deploymet-with-1-container-update-5d955d6d5-xrn4w --all-containers=true
+  719  kubectl apply -f deployment-with-1-container-update.yml --record
+  720  kubectl get deployments -o wide --watch
+  721  kubectl get deployments -o wide
+  722  kubectl get pods -o wide
+  723  kubectl get deployments -o wide
+  724  kubectl delete deployments deploymet-with-1-container-update
+  725  kubectl get deployments -o wide
+  726  kubectl get pods -o wide
+  727  kubectl get deployments -o wide
+  728  kubectl get pods -o wide
+  729  clear
+  730  echo -n 'root' > ./username.txt
+  731  echo -n 'my-perfect-password' > ./password.txt
+  732  ls
+  733  ls -lrt
+  734  vi username.txt 
+  735  vi password.txt 
+  736  kubectl create secret generic db-access --from-file=./username.txt --from-file=.
+  737  kubectl create secret generic db-access --from-file=./username.txt --from-file=./password.txt
+  738  ls -lrt
+  739  kubctl get secrets
+  740  kubectl get secrets
+  741  rm grafana-6.4.4-1.x86_64.rpm
+  742  ls -lrt
+  743  kubectl describe secrets/db-access
+  744  rm username.txt 
+  745  rm password.txt 
+  746  kubectl describe secrets/db-access
+  747  echo -n 'admin' | base64
+  748  echo -n 'pakito,aster chocolate :D' | base64
+  749  kubectl apply -f database-secret.yml 
+  750  kubectl get secrets
+  751  kubectl describe secrets/mysecret
+  752  kubectl get secret mysecret -o yaml
+  753  kubectl apply -f database-secret-with-string-data.yml 
+  754  kubectl get secrets
+  755  kubectl get secret mysecret-texto-plano -o yaml
+  756  echo -n 'pakitopakito' | base64
+  757  echo -n 'Pakito' | base64
+  758  kubectl apply -f database-secret-with-mixing-base64-string-data.yml 
+  759  kubectl get secret mysecret-mixing-base64-texto-plano -o yaml
+  760  kubectl get secrets
+  761  kubectl edit secrets mysecret-mixing-base64-texto-plano
+  762  kubectl get secrets
+  763  kubectl get secret mysecret-mixing-base64-texto-plano -o yaml
+  764  kubectl apply -f database-secret-with-mixing-base64-string-data.yml 
+  765  kubectl get secret mysecret-mixing-base64-texto-plano -o yaml
+  766  kubectl edit secrets mysecret-mixing-base64-texto-plano
+  767  kubectl get secret mysecret-mixing-base64-texto-plano -o yaml
+  768  kubectl get secrets
+  769  kubectl apply -f pod-using-secret.yml 
+  770  kubectl get secrets
+  771  kubectl get pods -o wide
+  772  kubectl describe pod pod-using-secret
+  773  kubectl get pods -o wide
+  774  kubectl describe pod pod-using-secret
+  775  kubectl describe pod pod-using-secret | grep secret
+  776  kubectl get pods -o wide
+  777  kubectl exec it pod-using-secret -c redis-container
+  778  kubectl exec it pod-using-secret -c redis-container bash
+  779  kubectl exec -it pod-using-secret -c redis-container bash
+  780  kubectl apply -f pod-using-secret-with-custom-paths.yml
+  781  kubectl get secrets
+  782  get pods
+  783  kubectl get pods -o wide
+  784  kubectl exec -it pod-using-secret -c pod-using-secret-with-custom-paths bash
+  785  kubectl exec -it pod-using-secret-with-custom-paths -c redis-container bash
+  786  kubectl get rs -o wide
+  787  kubectl get pods -o wide
+  788  kubectl expose --help
+  789  kubectl get deployments -o wide
+  790  kubectl expose deplyments deployment-with-httpd  --name=httpd-service --port=8123 --targetPort=80--type=NodePort
+  791  kubectl expose deployments deployment-with-httpd  --name=httpd-service --port=8123 --targetPort=80--type=NodePort
+  792  kubectl expose deployments deployment-with-httpd  --name=httpd-service --port=8123 --targetPort=80 --type=NodePort
+  793  kubectl expose deployments deployment-with-httpd --name=httpd-service --port=8123 --targetPort=80 --type=NodePort
+  794  kubectl get deployments -o wide
+  795  kubectl expose deployments/deployment-with-httpd --name=httpd-service --port=8123 --targetPort=80 --type=NodePort
+  796  kubectl expose deployments deployment-with-httpd --name=httpd-service --port=8123 --targetPort=80 --type=NodePort
+  797  kubectl expose deployment deployment-with-httpd --name=httpd-service --port=8123 --targetPort=80 --type=NodePort
+  798  kubectl get deployments -o wide
+  799  kubectl expose deployment deployment-with-httpd --name=httpd-service --port=8123 --target-port=80 --type=NodePort
+  800  kubectl get services
+  801  kubectl get svc
+  802  kubectl describe svc httpd-services
+  803  kubectl describe svc httpd-service
+  804  hystory
+  805  kubectl get pods -o wide
+  806  history
+  807  kubectl get pods -o wide
+  808  kubectl get pods -o wide --watch
+  809  kubectl get nodes -o wide --watch
+  810  history >> fileHistory.txt
