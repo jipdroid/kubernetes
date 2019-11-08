@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: deploymet-with-1-container-update
+  labels:
+    system: joker
+    environment:  sqa
+spec:
+  replicas: 3
+  minReadySeconds:  10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 3
+  selector: 
+    matchLabels:
+      app:  frontend
+  template:
+    metadata:
+      labels:
+        app:  frontend
+    spec:
+      containers:
+        - name: tomcat-with-replicaset
+          image: tomcat:alpine
+          env:  
+            - name:  DATABASE_IP
+              value:  pakito_server
+          ports:
+            - containerPort: 8080  
+        - name: nginx-with-replicaset
+          image: tomcat:alpine
+          ports:
+            - containerPort: 80 

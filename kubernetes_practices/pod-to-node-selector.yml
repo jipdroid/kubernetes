@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-to-frontend-node
+spec:
+  containers:
+    - name: nginx
+      image: nginx:latest
+      env:
+        - name: DATABASE_IP
+          value:  80.52.32.45
+      ports:
+        - containerPort: 80
+  nodeSelector:
+    app: frontend
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-to-backend-node
+spec:
+  containers:
+    - name: tomcat
+      image: tomcat:latest
+      env:
+        - name: DATABASE_IP
+          value:  80.52.32.45
+      ports:
+        - containerPort: 8080
+  nodeSelector:
+    app: backend

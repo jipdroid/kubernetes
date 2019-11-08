@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pakito-namespace-prod
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pakito-pod
+  namespace:  pakito-namespace-prod
+spec:
+  containers:
+    - name: nginx
+      image: nginx:latest
+      env:
+        - name: DATABASE_IP
+          value:  80.52.32.45
+      ports:
+        - containerPort: 80

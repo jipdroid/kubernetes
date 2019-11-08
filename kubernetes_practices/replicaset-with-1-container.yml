@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: replicaset-with-1-container
+  labels:
+    app: frontend
+spec:
+  replicas: 5
+  selector: 
+    matchLabels:
+      app:  frontend
+  template:
+    metadata:
+      labels:
+        app:  frontend
+    spec:
+      containers:
+        - name: tomcat-with-replicaset
+          image: tomcat:latest
+          ports:
+            - containerPort: 8080  
+        - name: nginx-with-replicaset
+          image: tomcat:alpine
+          ports:
+            - containerPort: 80                

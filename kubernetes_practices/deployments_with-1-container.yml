@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: deploymet-with-1-container
+  labels:
+    system: joker
+    environment:  sqa
+spec:
+  replicas: 2
+  selector: 
+    matchLabels:
+      app:  frontend
+  template:
+    metadata:
+      labels:
+        app:  frontend
+    spec:
+      containers:
+        - name: tomcat-with-replicaset
+          image: tomcat:latest
+          ports:
+            - containerPort: 8080  
+        - name: nginx-with-replicaset
+          image: tomcat:alpine
+          ports:
+            - containerPort: 80          
