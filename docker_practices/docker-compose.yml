@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  pakito_server:
+    build:
+      context: ./selae-backend
+    image: selae-backend:2.3.6
+    container_name: selae_backend
+    environment: 
+      - DATABASE_IP=83.54.67.5
+    ports:
+      - "8092:8080"  
+    restart: always
+
+  pakito_frontend:
+    build:
+      context: ./selae-frontend
+    image:  selae-frontend:2.4.7
+    restart:  always
+
+  pakito_springboot:
+    build:
+      context: ./selae-springboot
+    image:  selae-springboot:1.1.1
+    ports:
+      - "8099:8080"  
+    restart:  always  
